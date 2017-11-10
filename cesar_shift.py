@@ -22,7 +22,8 @@ def decrypt_cesar(new_word, number): #3
 
     decrypted_word = []
     for num in decrypted_num:
-        if (num - number) < 97:
+        num = num - number
+        if num < 97:
             a = 97 - num
             num = 97 - a # 117 - a = 121
             num = chr(num)
