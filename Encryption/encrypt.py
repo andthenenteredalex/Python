@@ -1,3 +1,4 @@
+""" Copyright Alex Clark November 2017  """
 plaintext = open('plain.txt')
 ciphertext = open('cipher.txt', 'w')
 word = plaintext.read()
