@@ -1,3 +1,13 @@
+""" 
+Copyright Alex Clark October 2017
+
+A basic script to convert an IP address into binary. I think there might be a more efficient way to 
+write this, but I don't know how yet. Either with recursion or using variables in more loops or something like that. 
+
+Let me know if you have any questions!
+Alex
+"""
+
 ip = []
 binary = []
 
